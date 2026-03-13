@@ -43,6 +43,17 @@ h_fused = α ⊙ h_skel + (1 − α) ⊙ h_KG
 
 ## Dataset & Training
 
+The RLVS (Real-Life Violence Situations) skeleton dataset used in this work was prepared by:
+
+> N. Janbi, M. Mehmood, R. Mehmood, and I. Katib, "ESTS-GCN: Enhanced
+> Spatio-Temporal Skeleton-Based Graph Convolutional Network for Violence
+> Detection," *IEEE Access*, vol. 12, pp. 15234–15248, 2024.
+
+Pose estimation and skeletal extraction from raw RGB videos was performed
+by the original authors using OpenPose. We gratefully acknowledge their
+dataset preparation work. If you use this dataset, please cite the above paper.
+```
+
 **Dataset:** Real-Life Violence Situations (RLVS) — 1,951 skeleton sequences (25 joints, NTU format), binary labels (violent / non-violent).
 
 | Split | Samples |
@@ -153,7 +164,7 @@ The knowledge graph (`A_KG`) is constructed offline via GPT-4 and fixed before t
 @article{hassan2025keestsgcn,
   title={Lightweight Multi-Pipeline Graph Neural Networks with Knowledge Graph Integration for Violence Recognition},
   author={Hassan, Hasnat Noor and Saif, Shahela and Qamar, Saira},
-  journal={IEEE Access},
+  journal={},
   year={2025}
 }
 ```
