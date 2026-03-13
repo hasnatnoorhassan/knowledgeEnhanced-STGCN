@@ -52,7 +52,6 @@ The RLVS (Real-Life Violence Situations) skeleton dataset used in this work was 
 Pose estimation and skeletal extraction from raw RGB videos was performed
 by the original authors using OpenPose. We gratefully acknowledge their
 dataset preparation work. If you use this dataset, please cite the above paper.
-```
 
 **Dataset:** Real-Life Violence Situations (RLVS) — 1,951 skeleton sequences (25 joints, NTU format), binary labels (violent / non-violent).
 
